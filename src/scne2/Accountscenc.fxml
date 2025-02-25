@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scne2.AcconotscencController">
+   <children>
+      <Text layoutX="257.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fx:id="showusernameText" layoutX="85.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName:" wrappingWidth="429.01611328125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="showpassText" layoutX="85.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="429.01611328125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="ArrowButton" layoutX="23.0" layoutY="27.0" mnemonicParsing="false" onAction="#ArrowButtonAction" prefHeight="36.0" prefWidth="53.0" stylesheets="@Account.css" />
+   </children>
+</AnchorPane>

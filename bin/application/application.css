@@ -1,0 +1,16 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#PasswordField{
+    -fx-background-color: #ffffff; /* สีพื้นหลัง */
+    -fx-border-color: #cccccc; /* สีขอบ */
+    -fx-border-width: 1px; /* ความหนาขอบ */
+    -fx-prompt-text-fill: #999999; /* สีข้อความแนะนำ */
+   
+
+    
+}
+
+#PasswordField:focused {
+    -fx-background-color: #f0f0f0; /* สีพื้นหลังเมื่อโฟกัส */
+    -fx-border-color: #007bff; /* สีขอบเมื่อโฟกัส */
+}

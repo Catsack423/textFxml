@@ -1,0 +1,9 @@
+#ArrowButton {
+    -fx-background-image: url("file:///G:/JAVA%20oop/textFxml/src/scne2/png-transparent-arrow-back-left.png");
+    -fx-background-size: 30px 30px; /* ปรับขนาดรูป */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent; /* ลบสีพื้นหลัง */
+    -fx-border-color: transparent; /* ซ่อนเส้นขอบ */
+	
+}
